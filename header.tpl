@@ -86,9 +86,9 @@
 						<div class="nav">
 							<div class="container">
 								<div class="row">
-									<nav>{$smarty.capture.displayNav}</nav>
+									
 								</div>
-							</div>
+							</div> 
 						</div>
 					{/if}
 					<div>
@@ -99,7 +99,9 @@
 										<img class="logo img-responsive" src="{$logo_url}" alt="{$shop_name|escape:'html':'UTF-8'}"{if isset($logo_image_width) && $logo_image_width} width="{$logo_image_width}"{/if}{if isset($logo_image_height) && $logo_image_height} height="{$logo_image_height}"{/if}/>
 									</a>
 								</div>
-								{if isset($HOOK_TOP)}{$HOOK_TOP}{/if}
+								{if isset($HOOK_TOP)}
+									{$HOOK_TOP}
+								{/if}
 							</div>
 						</div>
 					</div>

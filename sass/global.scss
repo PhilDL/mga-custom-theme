@@ -699,10 +699,10 @@ table.table_block td {
 .new-label {
 	font: 700 14px / 12px $font-family;
 	color: $light-text-color;
-	background: #6ad4ff;
+	background: $color-secondary-2-light;
 	text-transform: uppercase;
 	padding: 9px 0 7px;
-	text-shadow: 1px 1px rgba(0, 0, 0, 0.24);
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.24); 
 	width: 130px;
 	text-align: center;
 	display: block;

@@ -559,7 +559,7 @@ span.view_scroll_spacer {
     background-image: -moz-linear-gradient(#2bc32b, #028702);
     background-image: -webkit-linear-gradient(#2bc32b, #028702);
     background-image: linear-gradient(#2bc32b, #028702);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$complementary-green, endColorstr=$complementary-green-darker,GradientType=0 ); }
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$color-complement, endColorstr=$color-complement-darker,GradientType=0 ); }
     #center_column.col-sm-9 .col-md-3 .box-info-product .exclusive:before {
       font-family: "FontAwesome";
       position: relative;
@@ -632,7 +632,7 @@ span.view_scroll_spacer {
       background-image: -moz-linear-gradient(#028702, #2bc32b);
       background-image: -webkit-linear-gradient(#028702, #2bc32b);
       background-image: linear-gradient(#028702, #2bc32b);
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$complementary-green-darker, endColorstr=$complementary-green,GradientType=0 );
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$color-complement-darker, endColorstr=$color-complement,GradientType=0 );
       background-position: 0 0; }
 
 /* table_data_sheet */

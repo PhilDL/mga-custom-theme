@@ -6,6 +6,32 @@
 // Global values
 // --------------------------------------------------
 
+//-------- COLOR PALETTE
+//Tetrad - Base RGB : #f44336 Hue:0° - Dist: 40°
+$color-primary: #F43636;    // Main Primary color */
+$color-primary-lighter: #FF8686;
+$color-primary-light: #FF5C5C;
+$color-primary-dark: #D80F0F;
+$color-primary-darker: #A90303;
+
+$color-secondary-1: #F49C36;    // Main Secondary color (1) */
+$color-secondary-1-lighter: #FFC786;
+$color-secondary-1-light: #FFB35C;
+$color-secondary-1-dark: #D87A0F; 
+$color-secondary-1-darker: #A95C03;
+
+$color-secondary-2: #28759A;    // Main Secondary color (2) */
+$color-secondary-2-lighter: #6DA9C7;
+$color-secondary-2-light: #4389AA;
+$color-secondary-2-dark: #0F6189;
+$color-secondary-2-darker: #074A6B;
+
+$color-complement: #2BC32B; // Main Complement color */
+$color-complement-lighter: #76E076;
+$color-complement-light: #4CD14C;
+$color-complement-dark: #0CAD0C;
+$color-complement-darker: #028702;
+
 // Grays
 // -------------------------
 
@@ -19,10 +45,10 @@ $gray-lighter:           lighten(#000, 93.5%) !default; // #eee
 // -------------------------
 
 $brand-primary:         #428bca !default;
-$brand-success:         #46a74e !default;
-$brand-warning:         #f0ad4e !default;
-$brand-danger:          #d9534f !default;
-$brand-info:            #5192f3 !default;
+$brand-success:         $color-complement !default;
+$brand-warning:         $color-secondary-1 !default;
+$brand-danger:          $color-primary !default;
+$brand-info:            $color-secondary-1 !default;
 
 // Scaffolding
 // -------------------------

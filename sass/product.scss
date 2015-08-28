@@ -623,15 +623,15 @@ span.view_scroll_spacer {
 			border-bottom: 1px solid #b0afaf;
 			.exclusive{
 				padding: 0;
-				border-top: 1px solid $complementary-green-lighter;
-				border-right: 1px solid $complementary-green;
-				border-left: 1px solid $complementary-green;
-				border-bottom: 1px solid $complementary-green-dark;
+				border-top: 1px solid $color-complement-lighter;
+				border-right: 1px solid $color-complement;
+				border-left: 1px solid $color-complement;
+				border-bottom: 1px solid $color-complement-dark;
 				@include border-radius(5px);
 				position: relative;
 				display: block;
-				@include background-image(linear-gradient($complementary-green, $complementary-green-darker));
-				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$complementary-green, endColorstr=$complementary-green-darker,GradientType=0 );
+				@include background-image(linear-gradient($color-complement, $color-complement-darker));
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$color-complement, endColorstr=$color-complement-darker,GradientType=0 );
 				&:before{
 					font-family: $font-icon;
 					position: relative;
@@ -641,7 +641,7 @@ span.view_scroll_spacer {
 					color: $light-text-color;
 					font-size: 25px;
 					line-height: 47px;
-					text-shadow: 0 1px $complementary-green-darker;
+					text-shadow: 0 1px $color-complement-darker;
 					content: "\f07a";
 					z-index: 2;
 					width: 51px;
@@ -685,8 +685,8 @@ span.view_scroll_spacer {
 					font-size: 18px;
 					line-height: 22px;
 					border: none;
-					border-top: 1px solid $complementary-green;
-					text-shadow: 0 1px $complementary-green-darker;
+					border-top: 1px solid $color-complement;
+					text-shadow: 0 1px $color-complement-darker;
 					padding: 12px 16px 14px;
 					color: $light-text-color;
 					display: block !important;
@@ -701,8 +701,8 @@ span.view_scroll_spacer {
 					}
 				}
 				&:hover{
-					@include background-image(linear-gradient($complementary-green-darker, $complementary-green));
-					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$complementary-green-darker, endColorstr=$complementary-green,GradientType=0 );
+					@include background-image(linear-gradient($color-complement-darker, $color-complement));
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$color-complement-darker, endColorstr=$color-complement,GradientType=0 );
 					background-position: 0 0;
 				}
 			}

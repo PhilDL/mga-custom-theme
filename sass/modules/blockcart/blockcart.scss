@@ -5,7 +5,6 @@
 ********************************************************************/
 #header .shopping_cart {
 	position: relative;
-	float: right;
 	padding-top: 26px;
 	> a:first-child {
 		&:after {
@@ -26,7 +25,6 @@
 	}
 }
 .shopping_cart {
-	width: 270px;
 	@media (max-width: $screen-xs) {
 		padding-top: 20px;
 	}
@@ -36,7 +34,7 @@
 		width: 100%;
 	}
 	> a:first-child {
-		padding: 7px 10px 14px 16px;
+		padding: 7px 10px 14px 6px;
 		display: block;
 		font-weight: bold;
 		color: #777777;

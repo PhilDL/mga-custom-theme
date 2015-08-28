@@ -17,7 +17,7 @@
 	position: relative;
 	padding: 0;
 	width: 100%;
-	border-bottom: 3px solid $contrast-color;
+	border-bottom: 3px solid $color-primary;
 	background: $light-background;
 	@media (max-width: $screen-xs-max) { // max 767px
 		display: none;
@@ -73,8 +73,7 @@
 	&.sfHover > a,
 	> a:hover,
 	&.sfHoverForce > a {
-		background: $dark-background;
-		border-bottom-color: #666666;
+		background: $color-primary;
 		color: $light-text-color;
 	}
 }

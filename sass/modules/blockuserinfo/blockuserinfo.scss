@@ -1,13 +1,13 @@
 @import "compass";
 @import "theme_variables";
 .header_user_info {
-	float: right;
-	border-left: 1px solid #515151;
-	border-right: 1px solid #515151;
+	padding-top: 26px; 
+	padding-right:2px;
 	a {
+		font: 600 18px/22px "Open Sans", sans-serif;
 		color: $light-text-color;
 		font-weight: bold;
-		display: block;
+		display: block; 
 		padding: 8px 9px 11px 8px;
 		cursor: pointer;
 		line-height:18px;
@@ -17,5 +17,15 @@
 		&:hover, &.active {
 			background: #2b2b2b;
 		}
+		&:before {
+			content: "\f007";
+			font-family: "FontAwesome";
+			display: inline-block;
+			font-size: 23px;
+			line-height: 23px;
+			color: #fff;
+			padding-right: 15px;
+		}
 	}
+
 }
